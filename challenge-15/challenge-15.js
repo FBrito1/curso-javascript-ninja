@@ -80,7 +80,7 @@
   - "[NOME COMPLETO] agora tem [NOVA IDADE] anos."
   */
   console.log( '\nNova idade das pessoas:' );
-  console.log(`${nome.getFullName()} agora tem ${nome.addAge(10).age} anos.`)
-  console.log(`${nome1.getFullName()} agora tem ${nome1.addAge(10).age} anos.`)
-  console.log(`${nome2.getFullName()} agora tem ${nome2.addAge(10).age} anos.`)
+  console.log(`${nome.getFullName()} agora tem ${nome.addAge(10).getAge()} anos.`)
+  console.log(`${nome1.getFullName()} agora tem ${nome1.addAge(10).getAge()} anos.`)
+  console.log(`${nome2.getFullName()} agora tem ${nome2.addAge(10).getAge()} anos.`)
 })();
